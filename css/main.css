@@ -1,0 +1,113 @@
+/***** BASE STYLES *****/
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+/***** GRID *****/
+
+.full-width {
+    margin: 0 auto;
+    overflow: auto;
+    width: 1200px;
+}
+
+.half-width {
+    float: left;
+    width: 600px;
+}
+
+.third-width {
+    float: left;
+    width: 400px;
+}
+/***** HEADER *****/
+header h1 {
+    color: #77a466;
+    font-weight: bold;
+    font-size: 30px;
+    padding: 23px;
+    text-transform: uppercase;
+}
+
+nav {
+    float: right;
+    padding: 25px 0px;
+}
+
+nav ul li {
+    color: #77a466;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: bold;
+    padding-left: 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+header h1 span {
+    color: #000000;
+}
+
+img {
+    border-bottom: 3px solid #77a466;
+    border-top: 3px solid #77a466;
+    width: 1200px;
+}
+
+/***** ABOUT *****/
+#about h2 {
+    color: #77a466;
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+#about p {
+    font-size: 16px;
+    line-height: 23px;
+}
+
+/***** MENU REVIEW CONTACT*****/
+
+h3 {
+    font-size: 12px;
+    font-weight: bold;
+    line-height: 25px;
+    text-transform: uppercase;
+}
+
+ul.bottomlist {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+#bottom .full-width {
+    border-bottom: 1px solid #dedbdc;
+    border-top: 1px solid #dedbdc;
+}
+
+#menu {
+    color: #77a466;
+    line-height: 24px;
+}
+
+#review {
+    line-height: 21px;
+}
+
+#address {
+    line-height: 24px;
+}
+
+/***** FOOTER *****/
+footer {
+    text-align: center;
+    text-transform: uppercase;
+}
+footer span {
+    color: #77a466;
+    font-family: 'Galada', cursive;
+    font-size: 16px;
+    text-transform: lowercase;
+}
